@@ -1,0 +1,592 @@
+/**
+ * WARNING: Do not change this file. Your changes will be lost.
+ * 2021-06-17 02:21:50 */
+
+html .background-color-primary {
+    background-color: #222529 !important;
+}
+
+.theme-color {
+    color: #222529 !important;
+}
+
+.theme-hover-color:hover {
+    color: #222529 !important;
+}
+
+.theme-bg-color {
+    background-color: #222529 !important;
+}
+
+.theme-border-color {
+    border-color: #222529 !important;
+}
+
+.theme-hover-bg-color:hover {
+    background-color: #222529 !important;
+}
+
+a,
+a:hover,
+.minicart-wrapper .action.showcart:before,
+.minicart-wrapper .action.showcart.active:before,
+.owl-theme .owl-controls .owl-nav [class*=owl-],
+.recent-posts .post-date .day,
+.minicart-wrapper .action.showcart:hover:before,
+.minicart-wrapper .action.showcart:active:before,
+.minicart-wrapper .action.showcart.active:before,
+.minicart-wrapper .action.showcart.active:hover:before,
+.sorter-action:hover:before,
+.page-main>.page-title-wrapper .page-title,
+.cart.table-wrapper .actions-toolbar>.action-edit:hover:before,
+.cart.table-wrapper .actions-toolbar>.action-delete:hover:before,
+.paypal-review-discount .block>.title strong,
+.cart-discount .block>.title strong,
+.authentication-wrapper button.action-auth-toggle,
+.abs-action-button-as-link:hover,
+.abs-action-remove:hover,
+.abs-discount-block .action.check:hover,
+.popup .actions-toolbar .action.cancel:hover,
+.paypal-button-widget .paypal-button:hover,
+.bundle-options-container .action.back:hover,
+.block.related .action.select:hover,
+.cart.table-wrapper .actions-toolbar>.action-delete:hover,
+.cart.table-wrapper .action.help.map:hover,
+.checkout-index-index .modal-popup .modal-footer .action-hide-popup:hover,
+.opc-wrapper .edit-address-link:hover,
+.opc-block-shipping-information .shipping-information-title .action-edit:hover,
+.action-auth-toggle:hover,
+.checkout-payment-method .payment-method-billing-address .action-cancel:hover,
+.checkout-payment-method .payment-method-billing-address .billing-address-details .action-edit-address:hover,
+.checkout-agreements-block .action-show:hover,
+.gift-options .actions-toolbar .action-cancel:hover,
+.gift-summary .action-edit:hover,
+.gift-summary .action-delete:hover,
+.gift-wrapping-title .action-remove:hover,
+.wishlist.split.button>.action:hover,
+.abs-add-fields .action.remove:hover,
+.paypal-review-discount .action.check:hover,
+.cart-discount .action.check:hover,
+.form-giftregistry-share .action.remove:hover,
+.form-giftregistry-edit .action.remove:hover,
+.form-add-invitations .action.remove:hover,
+.form-create-return .action.remove:hover,
+.form.send.friend .action.remove:hover,
+.opc-progress-bar-item._complete>span,
+.checkout-payment-method .payment-option-title .action-toggle,
+.checkout-payment-method .payment-option-title .action-toggle:after,
+.opc-block-shipping-information .shipping-information-title .action-edit:before,
+.opc-block-shipping-information .shipping-information-title .action-edit:hover:before,
+.block-collapsible-nav .item.current a,
+.block-collapsible-nav .item.current strong,
+.block-collapsible-nav .item a:hover,
+.block-collapsible-nav .item a:active,
+.block-collapsible-nav .item a:focus,
+.magento-rma-returns-returns .page-main .page-title-wrapper .page-title,
+.magento-rma-returns-view .page-main .page-title-wrapper .page-title,
+.magento-rma-guest-returns .page-main .page-title-wrapper .page-title,
+.account .page-main .page-title-wrapper .page-title,
+[class^="sales-guest-"] .page-main .page-title-wrapper .page-title,
+.sales-guest-view .page-main .page-title-wrapper .page-title,
+.magento-rma-guest-returns .page-main .page-title-wrapper .page-title,
+p .alternative-font,
+.entry-content h3,
+.history h4,
+.nav-.block-search .label:before,
+.block-search .label:hover:before,
+.fotorama .fotorama-sprite,
+.page-header.type5 .search-area>a,
+.page-header.type5 .search-area>a:hover,
+.page-header.type5 .minicart-wrapper .action.showcart:before,
+.page-header.type5 .minicart-wrapper .action.showcart.active:before,
+.filterproducts-tab .data.items>.item.title[aria-expanded=true] a.switch,
+.qty.field .qty-changer>a:hover,
+.post-holder .post-date .day,
+.widget.block-recent-posts ul li a,
+.post-list .post-content .post-read-more,
+.post-header .post-title a,
+.alink:visited,
+a:active,
+.alink:active,
+.block-category-event>div.event-desc,
+.block-category-event .event-ticker .dates>div>span.desc,
+#ln_slider_price .ui-slider-handle,
+.abs-action-remove,
+.abs-discount-block .action.check,
+.popup .actions-toolbar .action.cancel,
+.paypal-button-widget .paypal-button,
+.bundle-options-container .action.back,
+.block.related .action.select,
+.cart.table-wrapper .actions-toolbar>.action-delete,
+.cart.table-wrapper .action.help.map,
+.checkout-index-index .modal-popup .modal-footer .action-hide-popup,
+.opc-wrapper .edit-address-link,
+.opc-block-shipping-information .shipping-information-title .action-edit,
+.action-auth-toggle,
+.checkout-payment-method .payment-method-billing-address .action-cancel,
+.checkout-payment-method .payment-method-billing-address .billing-address-details .action-edit-address,
+.checkout-agreements-block .action-show,
+.gift-options .actions-toolbar .action-cancel,
+.gift-summary .action-edit,
+.gift-summary .action-delete,
+.gift-wrapping-title .action-remove,
+.wishlist.split.button>.action,
+.abs-add-fields .action.remove,
+.paypal-review-discount .action.check,
+.cart-discount .action.check,
+.form-giftregistry-share .action.remove,
+.form-giftregistry-edit .action.remove,
+.form-add-invitations .action.remove,
+.form-create-return .action.remove,
+.form.send.friend .action.remove,
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span,
+html .heading-primary,
+html .lnk-primary,
+html .text-color-primary,
+.modes-mode.active,
+.modes-mode:hover,
+.sidebar-main .porto-icon {
+    color: #222529;
+}
+
+html .text-color-primary {
+    color: #222529 !important;
+}
+
+.action.primary,
+.action.primary:hover,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.recent-posts .post-date .month,
+.footer-ribbon,
+button:hover,
+.action.primary:focus,
+.action.primary:active,
+.btn-primary,
+.contact-index-index .page-main .contact-info [class^="porto-icon-"],
+.contact-index-index .page-main .contact-info [class*=" porto-icon-"],
+.btn-default,
+.cms-index-index blockquote.testimonial,
+.btn-default:hover,
+.products-grid .product-item-info:hover .product-item-details .product-item-actions .tocart,
+.products-grid.products.grid.flex-grid .product-item-details .product-item-actions .tocart,
+.post-holder .post-date .month,
+.page-header.type8 .header.content,
+.page-header.type8.header-newskin .header.content,
+.iwd-summary-cart,
+#ln_slider_price .ui-slider-handle,
+.filter-toggle.active,
+.products-grid .product-item .product-item-info .weltpixel-quickview.weltpixel_quickview_button_v2,
+.products-upsell .owl-middle-narrow.owl-theme .owl-controls .owl-dots .owl-dot.active span:before,
+.product-item-info.type3 .product-item-photo .product-item-inner .product-item-actions>.actions-primary .tocart:hover,
+.product-item-info.type3 .product-item-photo .product-item-inner .product-item-actions>.action.tocompare:hover,
+.product-item-info.type4 .product-item-actions .towishlist:hover,
+.product-item-info.type4 .product-item-actions .tocompare:hover,
+.product-item-info.type5 .product-item-photo .product-item-inner .product-item-actions>.actions-primary .tocart:hover,
+.product-item-info.type5 .product-item-photo .product-item-inner .product-item-actions>.action.tocompare:hover,
+.product-item-info.type6 .product-item-photo .product-item-inner .product-item-actions>.actions-primary .tocart:hover,
+.product-item-info.type6 .product-item-photo .product-item-inner .product-item-actions>.action.tocompare:hover,
+.product-item-info.type7 .product-item-inner .product-item-actions>.action:hover,
+.product-item-info.type7 .product-item-inner .product-item-actions>.actions-primary .tocart:hover,
+.product-item-info.type9 .product-item-inner .product-item-actions>.actions-primary .tocart:hover,
+.product-item-info.type9 .product-item-inner .product-item-actions>.action:hover,
+.sw-dailydeal,
+.catalog-product-view .sw-dailydeal .number-wrapper,
+.swatch-attribute.size .swatch-option.selected,
+.swatch-attribute.manufacturer .swatch-option.selected,
+.sidebar-main .product-banner .sale-text:before,
+.sidebar-main .product-banner .sale-text:after,
+.product-item-info.type0:hover .product-item-details .product-item-actions .tocart,
+.page-header.type17 .navigation:not(.side-megamenu) .level0 .level-top::before {
+    background-color: #222529;
+}
+
+.swatch-attribute.size .swatch-option.selected,
+.swatch-attribute.manufacturer .swatch-option.selected {
+    background-color: #222529 !important;
+}
+
+.action.primary,
+.action.primary:hover,
+.pages strong.page,
+.pages .action:hover,
+.pages a.page:hover,
+button:hover,
+.action.primary:focus,
+.action.primary:active,
+.products-grid .product-item-info:hover .product-item-details .product-item-actions .tocart,
+.products-grid.products.grid.flex-grid .product-item-details .product-item-actions .tocart,
+.filter-toggle.active,
+i.ajax-loader,
+.swatch-attribute.size .swatch-option.selected,
+.swatch-attribute.manufacturer .swatch-option.selected,
+.swatch-option.image:not(.disabled):hover,
+.swatch-option.color:not(.disabled):hover,
+.swatch-option:not(.disabled):hover,
+.products-grid .swatch-option.color:hover::after,
+.product-item-info.type3 .product-item-photo .product-item-inner .product-item-actions>.actions-primary .tocart:hover,
+.product-item-info.type3 .product-item-photo .product-item-inner .product-item-actions>.action.tocompare:hover,
+.product-item-info.type4 .product-item-actions .towishlist:hover,
+.product-item-info.type4 .product-item-actions .tocompare:hover,
+.product-item-info.type5 .product-item-photo .product-item-inner .product-item-actions>.actions-primary .tocart:hover,
+.product-item-info.type5 .product-item-photo .product-item-inner .product-item-actions>.action.tocompare:hover,
+.product-item-info.type6 .product-item-photo .product-item-inner .product-item-actions>.actions-primary .tocart:hover,
+.product-item-info.type6 .product-item-photo .product-item-inner .product-item-actions>.action.tocompare:hover,
+.product-item-info.type0:hover .product-item-details .product-item-actions .tocart,
+.page-header.type18 .navigation:not(.side-megamenu) .level0>.submenu {
+    border-color: #222529;
+}
+
+.page-header,
+.authentication-dropdown,
+.login-container,
+.form.password.reset,
+.form.send.confirmation,
+.form.password.forget,
+.form.create.account,
+.form.form-edit-account,
+.form-address-edit,
+.form-newsletter-manage,
+.featured-box .box-content,
+.history .featured-box .box-content,
+.form.search.advanced,
+.homepage-grid-banner .ribbon:before,
+.testimonial .testimonial-arrow-down,
+#newsletter_popup,
+.iwd-one-page-checkout-sidebar .iwd-opc-block-summary,
+.block-header-customer-login,
+.mfp-preloader,
+.ln_overlay .loader {
+    border-top-color: #222529;
+}
+
+.minicart-wrapper .block-minicart:before,
+.iwd-one-page-checkout-sidebar .iwd-opc-block-summary:before,
+.block-header-customer-login:before {
+    border-bottom-color: #222529;
+}
+
+@media (max-width: 991px) {
+    .navigation a {
+        color: #777 !important;
+    }
+    .navigation a:hover,
+    .nav-sections .header.links a:hover {
+        color: #222529 !important;
+    }
+    header.page-header .nav-sections-item-title.active>a,
+    header.page-header .nav-sections-item-title.active>a:hover,
+    header.page-header .nav-sections-item-title.active>a:focus {
+        color: #222529;
+    }
+    header.page-header .nav-sections-item-title,
+    .sw-megamenu.navigation li.level0.fullwidth .submenu .menu-top-block a.btn-default:hover,
+    .sw-megamenu.navigation li.level0.staticwidth .submenu .menu-top-block a.btn-default:hover,
+    .sw-megamenu.navigation li.level0.fullwidth .submenu .menu-left-block a.btn-default:hover,
+    .sw-megamenu.navigation li.level0.staticwidth .submenu .menu-left-block a.btn-default:hover,
+    .sw-megamenu.navigation li.level0.fullwidth .submenu .menu-right-block a.btn-default:hover,
+    .sw-megamenu.navigation li.level0.staticwidth .submenu .menu-right-block a.btn-default:hover,
+    .sw-megamenu.navigation li.level0.fullwidth .submenu .menu-bottom-block a.btn-default:hover,
+    .sw-megamenu.navigation li.level0.staticwidth .submenu .menu-bottom-block a.btn-default:hover,
+    .sw-megamenu.navigation li.level0.fullwidth .submenu .menu-top-block a.btn-default:focus,
+    .sw-megamenu.navigation li.level0.staticwidth .submenu .menu-top-block a.btn-default:focus,
+    .sw-megamenu.navigation li.level0.fullwidth .submenu .menu-left-block a.btn-default:focus,
+    .sw-megamenu.navigation li.level0.staticwidth .submenu .menu-left-block a.btn-default:focus,
+    .sw-megamenu.navigation li.level0.fullwidth .submenu .menu-right-block a.btn-default:focus,
+    .sw-megamenu.navigation li.level0.staticwidth .submenu .menu-right-block a.btn-default:focus,
+    .sw-megamenu.navigation li.level0.fullwidth .submenu .menu-bottom-block a.btn-default:focus,
+    .sw-megamenu.navigation li.level0.staticwidth .submenu .menu-bottom-block a.btn-default:focus {
+        background-color: #222529;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-header .navigation li.level0 {
+        color: #222529;
+    }
+    .page-header.type24 .navigation li.level0>a:before {
+        background-color: #222529;
+    }
+    .navigation .level0 .submenu {
+        border-color: #222529;
+    }
+    .sw-megamenu.navigation.side-megamenu li.level0:hover>a,
+    .sw-megamenu.navigation.side-megamenu li.level0.active>a {
+        border-top-color: #222529;
+    }
+    #main-toggle-menu .menu-title:hover,
+    #main-toggle-menu .menu-title:not(.closed) {
+        background: #222529;
+        border-right-color: #222529;
+    }
+}
+
+button.action.primary {}
+
+button.action.primary:hover {}
+
+.page-wrapper>.breadcrumbs {
+    background-color: #FFFFFF
+}
+
+.page-wrapper>.breadcrumbs {
+    color: #000000
+}
+
+.page-wrapper>.breadcrumbs a,
+.page-wrapper>.breadcrumbs a:focus {
+    color: #000000
+}
+
+.page-wrapper>.breadcrumbs a:hover {
+    color: #000000
+}
+
+#ln_slider_price.ui-slider-horizontal {
+    background-color: #eee
+}
+
+#ln_slider_price .ui-slider-handle {
+    background-color: #000000
+}
+
+.page-header.type1,
+.page-header.type23,
+.page-header,
+header.page-header.sticky-header .header-main {
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    header.page-header.sticky-header .header-main {
+        background-color: #FFFFFF;
+    }
+}
+
+.page-header .header-main {
+    color: #222529;
+}
+
+.page-header .header-main a,
+.page-header.type5 .search-area a.search-toggle-icon {
+    color: #222529;
+}
+
+.cart-design-2 .action.showcart .minicart-icon {
+    border-color: #222529;
+}
+
+.page-header .panel.wrapper,
+.main-panel-top {
+    background-color: #FFFFFF;
+}
+
+.page-header .panel.wrapper,
+.page-header.type23 .panel.header a,
+.page-header.type23 .panel.header a:hover,
+.page-header.type23>.panel.wrapper,
+.page-header.type23 .header.panel .switcher,
+.page-header.type24 .top-links-icon a,
+.page-header.type24 .top-links-icon,
+.page-header.type24 .panel.header .switcher {
+    color: #222529;
+}
+
+@media (min-width: 992px) {
+    .page-header.type1 .nav-sections,
+    .page-header.type2 .nav-sections,
+    .page-header .navigation>ul,
+    .page-header.type16.sticky-header .navigation:not(.side-megamenu)>ul,
+    .page-header.type18 .main-menu-wrap {
+        background-color: transparent;
+    }
+    .page-header.type16 .navigation:not(.side-megamenu)>ul {
+        border-color: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-header .navigation li.level0,
+    .page-header.type23 .navigation .level0>.level-top {
+        color: #141a1f;
+    }
+}
+
+@media (min-width: 992px) {
+    .sw-megamenu.navigation.side-megamenu li.level0 {
+        color: #555;
+    }
+}
+
+@media (min-width: 992px) {
+    .sw-megamenu.navigation.side-megamenu li.level0:hover,
+    .sw-megamenu.navigation.side-megamenu li.level0.active {
+        background-color: #08c;
+    }
+    .sw-megamenu.navigation.side-megamenu li.level0:hover>a {
+        border-top-color: #08c;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-header .navigation li.level0.active,
+    .page-header .navigation li.level0:hover,
+    .page-header.type23 .navigation .level0.active>.level-top,
+    .page-header.type23 .navigation .level0.has-active>.level-top {
+        color: #141a1f;
+    }
+    .page-header.type2 .navigation .level0 .level-top:before {
+        background-color: #141a1f;
+    }
+}
+
+@media (min-width: 992px) {
+    .sw-megamenu.navigation.side-megamenu li.level0:hover,
+    .sw-megamenu.navigation.side-megamenu li.level0.active {
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 992px) {
+    .navigation .level0 .submenu a {
+        color: #000;
+    }
+}
+
+@media (min-width: 992px) {
+    .navigation .level0 .submenu a:hover,
+    .navigation .level0 .submenu a.ui-state-focus {
+        background-color: #000;
+    }
+}
+
+@media (min-width: 992px) {
+    .navigation .level0 .submenu a:hover,
+    .navigation .level0 .submenu a.ui-state-focus {
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 992px) {
+    .sw-megamenu.navigation li.level0.fullwidth>.submenu a,
+    .sw-megamenu.navigation li.level0.staticwidth>.submenu a {
+        color: #000;
+    }
+}
+
+@media (min-width: 992px) {
+    .sw-megamenu.navigation li.level0.fullwidth>.submenu a:hover,
+    .sw-megamenu.navigation li.level0.staticwidth>.submenu a:hover {
+        color: #000;
+    }
+}
+
+.search-area .block.block-search {
+    background-color: #FFFFFF;
+}
+
+.search-area {
+    color: #999;
+}
+
+.search-area {
+    border-color: #ccc;
+}
+
+@media (min-width: 768px) {
+    .header.panel .minicart-wrapper .action.showcart .counter.qty {
+        color: #222529;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-header .minicart-wrapper .action.showcart,
+    .page-header .minicart-wrapper .action.showcart:before,
+    .page-header .minicart-wrapper .action.showcart.active:before,
+    .page-header.type18 .wishlist {
+        color: #222529;
+    }
+    .cart-design-2 .action.showcart .minicart-icon {
+        border-color: #222529;
+    }
+}
+
+.footer-top {
+    background-color: #FFFFFF;
+}
+
+.footer-top {
+    color: #777;
+}
+
+.footer-top a {
+    color: #777;
+}
+
+.footer-top a:hover {
+    color: #777;
+}
+
+.footer-middle {
+    background-color: #FFFFFF;
+}
+
+.footer-middle,
+.footer-middle p {
+    color: #90969a;
+}
+
+.footer-middle a {
+    color: #90969a;
+}
+
+.footer-middle a:hover,
+.footer .widget .tagcloud a:hover {
+    color: #555;
+}
+
+.footer .widget .tagcloud a:hover {
+    border-color: #555;
+}
+
+.footer-middle .block .block-title strong,
+.footer .widget-title,
+.footer .contact-details strong {
+    color: #000;
+}
+
+.footer-middle [class^="porto-icon-"].theme-color,
+.footer-middle [class*=" porto-icon-"].theme-color {
+    color: #FFFFFF !important;
+}
+
+.footer .footer-ribbon {
+    background-color: #000;
+}
+
+.footer .footer-ribbon:before {
+    border-right-color: #000;
+    border-left-color: #000;
+}
+
+.footer-ribbon span {
+    color: #FFFFFF;
+}
+
+.footer-bottom {
+    background-color: #FFFFFF;
+}
+
+.footer-bottom,
+.footer-bottom p {
+    color: #90969a;
+}
+
+.footer-bottom a {
+    color: #90969a;
+}
+
+.footer-bottom a:hover {
+    color: #90969a;
+}
