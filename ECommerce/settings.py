@@ -22,12 +22,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#hmpu%%$e73h0x()bsjg-pmf2l980eqlasggfe*4*#fi_g=x4x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'applemaster.co.ke',
     'www.applemaster.co.ke',
+    '172.173.222.196',
 ]
 
 ADMINS = [
@@ -217,7 +218,8 @@ BUSINESS_NAME = "Applemaster Kenya"
 META_SESSION_ID = 'extras_session_info'
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://applemaster.co.ke'
+    'https://applemaster.co.ke',
+    'http://172.173.222.196'
 ]
 
 #STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
