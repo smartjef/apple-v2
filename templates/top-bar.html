@@ -72,7 +72,7 @@
             </a>
         </div>
         <div class="col-lg-4 col-6 text-left">
-            <form action="{% url 'shop:product_search'  %}" method="post">
+            <form action="{% url 'shop:search'  %}" method="post">
                 {% csrf_token %}
                 <div class="input-group">
                     {{search_form.search}}

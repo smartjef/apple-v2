@@ -24,7 +24,7 @@ def search_product(request):
     ]
     products = None
     if form.is_valid():
-        search_string = form.cleaned_data.get('search')
+        search_string = form.cleaned_data.post('search')
         if search_string:
             products = Product.objects.filter(name__contains=search_string)
     if not products:

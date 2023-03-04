@@ -97,8 +97,13 @@ def contact(request):
     )
 
 def advanced_search(request):
+    if request.method == 'GET':
+        q = request.GET['q']
+        print("\n\n\n\n")
+        print(q)
+        print("\n\n\n\n")
     context={
         'title':'Advanced Search',
     }
-    return render(request, 'search.html', context)
+    return render(request, 'shop/list-1.html', context)
 
