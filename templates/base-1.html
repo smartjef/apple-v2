@@ -33,20 +33,6 @@ class="cms-porto_home_3 layout-fullwidth wide mobile-sticky cms-index-index page
         {% include 'partials-1/breadcrumbs.html' %}
         <main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
             {% include 'partials-1/message.html' %}
-
-        <script type="text/x-magento-init">
-            {
-                "*": {
-                    "Magento_Ui/js/core/app": {
-                        "components": {
-                                "messages": {
-                                    "component": "Magento_Theme/js/view/messages"
-                                }
-                            }
-                        }
-                    }
-            }
-        </script>
             {% block content %}
 
             {% endblock %}
