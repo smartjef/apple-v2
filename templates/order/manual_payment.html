@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base-1.html" %}
 {% load static %}
 {% load humanize %}
 {% block title %}
@@ -19,7 +19,7 @@ Details
                     <div class="input-group mb-3">
                         <input type="text" name="order_id" class="form-control" placeholder="Customer Order Id" aria-label="Recipient's username" aria-describedby="basic-addon2" value="{{order.id}}">
                         <div class="input-group-append">
-                          <button class="btn btn-primary" type="submit">Search</button>
+                          <button class="btn btn-primary my-4" type="submit">Search</button>
                         </div>
                       </div>
                 </form>
@@ -91,7 +91,7 @@ Details
                         <div class="input-group mb-3">
                             <input type="text" name="transaction_id" class="form-control" placeholder="Transaction Id or National Id" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
                             <div class="input-group-append">
-                            <button class="btn btn-primary" type="submit">Make Transaction</button>
+                            <button class="btn btn-primary my-4" type="submit">Mark as Paid</button>
                             </div>
                         </div>
                     </form>
@@ -104,5 +104,4 @@ Details
 
 </div>
 
-{% include 'bottom.html' %}
 {% endblock %}
