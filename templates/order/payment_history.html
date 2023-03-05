@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base-1.html" %}
 {% load static %}
 {% block title %}
 payment history
@@ -8,8 +8,8 @@ payment history
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 {% endblock %}
 {% block content %}
-<div class="container">
-    <div class="row text-center" style="background-color: #6c757d;;">
+<div class="my-5">
+    <div class="text-center">
         <h1>
             ORD-{{order.id}} Payment History
         </h1>
@@ -67,7 +67,4 @@ payment history
 
 </div>
 
-
-
-{% include 'bottom.html' %}
 {% endblock %}
