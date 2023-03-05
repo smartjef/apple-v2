@@ -543,17 +543,14 @@
                                         </div>
                                         {% endfor %}
                                         {% else %}
-                                        <div class="col-md-12">
-                                            The Product has no reviews yet.Be the first
+                                        <div class="col-md-12" style="margin-bottom: 20px;">
+                                        The Product has no reviews yet.Be the first to leave a review
                                         </div>
                                         {% endif %}
                                         {% if user.is_authenticated %}
                                         <form action="" class="review-form" method="post" id="review-form">
                                             <fieldset class="fieldset review-fieldset"
                                                 data-hasrequired="&#x2A;&#x20;Required&#x20;Fields">
-                                                <legend class="legend review-legend"><span>You&#039;re
-                                                        reviewing:</span><strong>{{ product.name }}</strong></legend>
-                                                <br />
                                                 {% csrf_token %}
                                                 {{form|crispy}}
                                                   
