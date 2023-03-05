@@ -7,6 +7,7 @@ from django.shortcuts import reverse
 from django.views.decorators.http import require_POST
 from accounts.models import Team
 from root.breadcrumb import BreadCrumb
+from django.db.models import Q
 from root.forms import ContactForm
 from root.models import FrontDisplayCategory, SubSubscribers
 from shop.models import Category, Product, Tag
@@ -97,13 +98,10 @@ def contact(request):
     )
 
 def advanced_search(request):
-    if request.method == 'GET':
-        q = request.GET['q']
-        print("\n\n\n\n")
-        print(q)
-        print("\n\n\n\n")
-    context={
-        'title':'Advanced Search',
-    }
-    return render(request, 'shop/list-1.html', context)
+    query = request.GET.get('q')
+    if query:
+        products = Product.objects.filter(Q(name__icontains=query) | Q(description__icontains=query))
+    else:
+        products = Product.objects.all()
+    return render(request, 'shop/product/list-1.html', {'products': products})
 
